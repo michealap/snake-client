@@ -22,7 +22,6 @@ const connect = function() {
     // setInterval(() => {
     //   conn.write("Move: left");
     // }, 4000);
-    
   });
 
   return conn;
