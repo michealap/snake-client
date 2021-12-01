@@ -14,8 +14,8 @@ const connect = function() {
   conn.setEncoding("utf8");
   //when connect to the server, it will listen to event and trigger that callback
   conn.on('connect', () => {
-    console.log("Connected to server");
-    //conn.write(data);
+    console.log("Connected to server successfully");
+    conn.write("Name: MP");
   });
 
   return conn;
