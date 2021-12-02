@@ -16,11 +16,12 @@ const connect = function() {
   conn.on('connect', () => {
     console.log("Connected to server successfully");
     conn.write("Name: MP");
+    conn.write("Say: Step by step");
     // setTimeout(() => {
     //   conn.write("Move: up");
     // }, 4000);
     // setInterval(() => {
-    //   conn.write("Move: left");
+    //   conn.write("Move: right");
     // }, 4000);
   });
 
